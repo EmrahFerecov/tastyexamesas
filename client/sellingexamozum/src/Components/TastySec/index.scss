@@ -1,0 +1,24 @@
+#tasty{
+    background: url(https://preview.colorlib.com/theme/tasty/images/bg_2.jpg.webp);
+    background-size: cover;
+    width: 100%;
+    height  : 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    .btn1{ 
+        padding: 10px 20px;
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+    }
+    .btn1:hover{
+        background-color: white;
+        color: black;
+    }
+    .tdf{
+        color: white;
+
+    }
+}

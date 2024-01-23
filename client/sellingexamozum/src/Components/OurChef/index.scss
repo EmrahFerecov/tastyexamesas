@@ -1,0 +1,40 @@
+#ourchef {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  .chefbox {
+    display: flex;
+    width: 75%;
+    .img{
+        width: 50%;
+    }
+    .abouttasty{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .foryou{
+            width: 80%;
+            height: 50%;
+            border: 1px solid white;
+            h4{
+              color: lightgrey;
+              font-size: 20px;
+              margin-bottom: 10px;
+            }
+            h2{
+              color: black;
+              font-size: 35px;
+              margin-bottom: 50px;
+            }
+            p{
+              color: lightgray;
+              font-size: 20px;
+              
+            }
+        }
+    }
+  }
+}
